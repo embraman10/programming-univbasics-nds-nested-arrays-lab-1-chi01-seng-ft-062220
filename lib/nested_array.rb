@@ -16,7 +16,7 @@ end
 
 def matrix_lookup(matrix, row, column)
   produce_storage= [CONVENTIONAL_PRODUCE,ORGANIC_PRODUCE]
-  produce_storage[1][3]
+  produce_storage[row][column]
 end
 
 def matrix_update(matrix, row, column, new_value)
