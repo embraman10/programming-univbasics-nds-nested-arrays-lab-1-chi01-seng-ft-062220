@@ -19,10 +19,7 @@ def assembled_matrix
 end
 
 def sorted_matrix
-  produce_storage= [
-    [CONVENTIONAL_PRODUCE.sort],
-    [ORGANIC_PRODUCE.sort]
-  ]
+  produce_storage= [CONVENTIONAL_PRODUCE.sort,ORGANIC_PRODUCE.sort]
 end
 
 def matrix_lookup(matrix, row, column)
