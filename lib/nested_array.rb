@@ -35,7 +35,6 @@ def sorted_matrix
     [CONVENTIONAL_PRODUCE]
     [ORGANIC_PRODUCE]
   ]
-  produce_storage.sort
 end
 
 def matrix_lookup(matrix, row, column)
