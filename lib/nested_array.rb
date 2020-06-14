@@ -23,7 +23,7 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-  produce_storage= [CONVENTIONAL_PRODUCE.sort,ORGANIC_PRODUCE.sort]
+  produce_storage= [CONVENTIONAL_PRODUCE,ORGANIC_PRODUCE]
   produce_storage[1][1]
 end
 
