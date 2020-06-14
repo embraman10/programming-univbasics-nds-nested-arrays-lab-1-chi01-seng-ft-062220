@@ -15,14 +15,14 @@ CONVENTIONAL_PRODUCE = [
 ]
 
 def assembled_matrix
+  produce_storage= [CONVENTIONAL_PRODUCE,ORGANIC_PRODUCE]
+end
+
+def sorted_matrix
   produce_storage= [
     [CONVENTIONAL_PRODUCE.sort],
     [ORGANIC_PRODUCE.sort]
   ]
-end
-
-def sorted_matrix
-  produce_storage= [CONVENTIONAL_PRODUCE,ORGANIC_PRODUCE]
 end
 
 def matrix_lookup(matrix, row, column)
