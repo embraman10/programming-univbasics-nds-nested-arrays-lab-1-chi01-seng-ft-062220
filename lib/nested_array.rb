@@ -19,7 +19,6 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
-  matrix
-  matrix[row][column]= "new_value"
+  matrix[row][column]= new_value
   matrix
 end
